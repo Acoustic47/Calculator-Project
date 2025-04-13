@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+@keyframes jiggle {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    70% {
+        transform: rotate(-7deg);
+    }
+    75% {
+        transform: rotate(7deg);
+    }
+    80% {
+        transform: rotate(-7deg);
+    }
+    85% {
+        transform: rotate(7deg);
+    }
+}
+
+.aa button:active i {
+    display: inline-block; /* Ensure the icon or text is treated as a block for transform */
+    animation: jiggle 1s ease-in-out;
+    font-size: 80px; /* Ensure the icon or text is visible */
+   
+}
+.a{
+    background-color: rgba(245, 245, 245, 0.337);
+    padding: 40px;
+    border-radius: 20px;
+    min-width: 400px;
+    min-height: 400px;
+
+}
+
+.aa{
+    display: grid;
+  gap: 10px;
+  position: relative;
+}
+
+.aa .aaa{
+    
+    grid-column: span 4;
+   height: 200px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: NONE;
+   outline: none;
+   font-size: 36px;
+   padding: 10px;
+   box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+
+
+}
+.aaa{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.943) 0%, rgba(255, 255, 255, 0.2) 100%);
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: black;
+    font-size: 600px;
+
+}
+.aa button{
+ 
+    border: none;
+    width: 100px;
+    height: 100px;
+    position: relative;
+   
+  
+}
+.aa button:hover{
+    background: linear-gradient(90deg, rgba(36, 35, 55, 0.2) 0%, rgba(36, 35, 55, 0.2) 100%);
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 1s ease;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: none;
+}
+.aa button::before{
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    right: 12px;    
+    bottom: 15px;  
+    
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.077) 100%);
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.603), 10px 5px 10px rgba(0, 0, 0, 0.237);
+    transition: all 0.3s ease;
+    cursor: grab;
+    border-left: 1px rgba(0, 0, 0, 0.115);  
+    border-right: 1px rgba(0, 0, 0, 0.115);
+    border-top: 1px rgba(0, 0, 0, 0.115);
+}
+.aa button i{
+    position: relative;
+    text-align: center;
+    
+}
+
+.aa button:active{
+    filter: brightness(600%);
+}    
+  
+    
+.c{
+    font-weight: 1000%;
+    font-style: bold;
+    font-size: 30px;
+    color: black;
+    border-radius: 30%;
+ background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
+    font-family: freestyle;
+    font-style: none;
+    
+}
+ button#equal{ 
+    grid-row: span 2;
+    height: 211px;
+    width: 100%;
+    
+    font-weight: 1000%;
+    font-style: bold;
+    font-size: 60px;
+    color: black;
+     border-radius: 10%;
+ background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
+    font-family: freestyle;
+    font-style: none;  
+
+    background: #1479c9;
+filter: brightness(80%);
+}
+
+button#equal::before{
+    background: linear-gradient(90deg,#1479c9, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.603), 10px 5px 10px rgba(0, 0, 0, 0.237);
+    border-left: 1px rgba(255, 255, 255, 0.27);
+    border-right: 1px rgba(255, 255, 255, 0.27);
+    border-top: 1px rgba(255, 255, 255, 0.27);}
+button#c{
+    background: red;
+}
+button#c::before{
+    background: linear-gradient(90deg,#d20000, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.603), 10px 5px 10px rgba(0, 0, 0, 0.237);
+    border-left: 1px rgba(255, 255, 255, 0.27);
+    border-right: 1px rgba(255, 255, 255, 0.27);
+    border-top: 1px rgba(255, 255, 255, 0.27);
+}
+
+
