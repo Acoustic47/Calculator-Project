@@ -1,6 +1,8 @@
-# 🧮 Sky Blue Glassmorphism Calculator
+<img width="1923" height="934" alt="image" src="https://github.com/user-attachments/assets/397c5cb5-fc84-4a39-a1c4-9c88a9444d62" /># 🧮 Sky Blue Glassmorphism Calculator
 
 A sleek, modern web calculator built with vanilla HTML, CSS, and JavaScript. Featuring a vibrant sky blue glassmorphic aesthetic, animated button feedback, keyboard shortcuts, and an interactive background history drawer.
+
+do give a check at : https://acoustic47.github.io/Calculator-Project/
 
 ---
 
